@@ -14,9 +14,9 @@ Fra settings panelet skal brugeren have mulighed for at administrere det kategor
 
 * HTML (structure)<br>
 * JavaScript (logic / data collection)<br>
-* Webpack (build system)<br>
+* Vite (build system)<br>
 * Sass (css preprocessor)<br>
-* Jest (testing)
+* Vitest (testing)
 * GitHub / Netlify (host)<br>
 
 ## Krav til opgaven
@@ -25,7 +25,7 @@ Fra settings panelet skal brugeren have mulighed for at administrere det kategor
 Se Figma-fil (og billeder) i mappen projekt-UI.
 
 1. **Automatisering**<br>
-    Din udviklingsproces skal automatiseres med webpack. Du skal opsætte tasks til at flytte og behandle de filer du udvikler til en "dist"-mappe i din udviklingsproces.
+    Din udviklingsproces skal automatiseres med Vite. Du skal opsætte tasks til at flytte og behandle de filer du udvikler til en "dist"-mappe i din udviklingsproces.
     * Oretter/flytter html filer.
     * behandler og sammenskriver sass-filer til en samlet css fil.
     * behandler javascript filer, og sammenskriver dem til én fil.
@@ -41,8 +41,8 @@ Se Figma-fil (og billeder) i mappen projekt-UI.
    
    Nyhedsartikler skal også kunne gemmes i et privat nyhedsarkiv. Gem funktionen bliver synlig når der swipes til venstre ([se illustration](./assets/swipe-illustration.png   "swipe illustration")) på en nyhed. Fra det private nyhedsarkiv kan ligeledes tilgås artikler og artikler kan slettes. Slet    funktionen bliver synlig når der swipes til venstre ([se illustration](./assets/swipe-illustration.png "swipe illustration")) på en arkiveret nyhed.<br>
 
-1. **Testing med Jest**<br>
-   Din applikation skal testes med Jest. Du skal opsætte og skrive tests for at sikre, at din kode fungerer som forventet. Testene skal dække både funktionalitet og edge cases.
+1. **Testing med Vitest**<br>
+   Din applikation skal testes med Vitest. Du skal opsætte og skrive tests for at sikre, at din kode fungerer som forventet. Testene skal dække både funktionalitet og edge cases.
 
 1. **Deploy via GitHub Pages eller Netlify**<br>
    Din webapplikation skal udgives på GitHub Pages eller Netlify.
@@ -59,4 +59,4 @@ Husk at 'nice-to-have' opgaverne **ikke** er valgfrie opgaver! Det forventes at 
 Jeres projekter vil blive testet på en telefon, så det er vigtigt at I også tester på jeres egne telefoner, og ikke udelukkende tester i browserens emulator.
 
 ### **Projektdokumentation**
-I filen der hedder [projektdokumentation.md](./projektdokumentation.md) skal I dokumentere jeres projekt og de værktøjer I bruger, samt jers proces.
+I filen der hedder [projektdokumentation.md](./projektdokumentation.md) skal I dokumentere jeres projekt og de værktøjer I bruger, samt jeres proces.
